@@ -49,3 +49,6 @@ Thumbs.db
 !database.sqlite
 *.sqlite
 !database_sample.sqlite
+# Ignore all SQLite databases
+*.sqlite
+*.db
