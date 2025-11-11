@@ -1,0 +1,51 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+venv/
+env/
+.env
+
+# ================================
+# Jupyter / VSCode / IDE
+# ================================
+.ipynb_checkpoints
+.vscode/
+.idea/
+*.swp
+
+# ================================
+# OS and logs
+# ================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# ================================
+# Data & exports
+# ================================
+/charts/
+/exports/
+/datasets/
+/*.csv
+/*.xlsx
+/*.xls
+
+# ================================
+# SQLite backups (keep only main DB)
+# ================================
+*.sqlite-journal
+*.db
+!database.sqlite
+*.sqlite
+!database_sample.sqlite
